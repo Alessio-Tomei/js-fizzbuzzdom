@@ -34,19 +34,19 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 5 == 0) {
         console.log('Buzz');
         const element = `<div class="col">
-                                <div class="at_box at_box-color-2">
-                                    <span class="at_center-text">Buzz</span>
-                                </div>
-                            </div>`;
+                            <div class="at_box at_box-color-2">
+                                <span class="at_center-text">Buzz</span>
+                            </div>
+                        </div>`;
             container.innerHTML += element;
     }
     else {
         console.log(i);
         const element = `<div class="col">
-                                <div class="at_box">
-                                    <span class="at_center-text">${i}</span>
-                                </div>
-                            </div>`;
+                           <div class="at_box">
+                                <span class="at_center-text">${i}</span>
+                            </div>
+                        </div>`;
             container.innerHTML += element;
     }
 }
